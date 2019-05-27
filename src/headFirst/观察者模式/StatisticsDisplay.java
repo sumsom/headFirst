@@ -1,4 +1,4 @@
-package headFirst.¹Û²ìÕßÄ£Ê½;
+package headFirst.è§‚å¯Ÿè€…æ¨¡å¼;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,14 +19,14 @@ public class StatisticsDisplay implements Observer, DisplayElement {
 
 	@Override
 	public void display() {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ÉµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		System.out.println("Avg/Max/Min temperature = " + avgTemp + "/"+maxTemp+"/"+minTemp);
 
 	}
 
 	@Override
 	public void update(float temp, float humidity, float pressure) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ÉµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		tempList.add(temp);
 		maxTemp=(float) Collections.max(tempList);
 		minTemp=(float) Collections.min(tempList);

@@ -1,4 +1,4 @@
-package headFirst.¹Û²ìÕßÄ£Ê½;
+package headFirst.è§‚å¯Ÿè€…æ¨¡å¼;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	private float temperature;
@@ -12,14 +12,14 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
 
 	@Override
 	public void display() {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ÉµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		System.out.println("Current conditions: " + temperature + "F degrees and " + humidity + "% humidity");
 
 	}
 
 	@Override
 	public void update(float temp, float humidity, float pressure) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ÉµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		this.temperature = temp;
 		this.humidity = humidity;
 		display();

@@ -1,9 +1,9 @@
-package headFirst.¹Û²ìÕßÄ£Ê½;
+package headFirst.è§‚å¯Ÿè€…æ¨¡å¼;
 
 public class WeatherStation {
 
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ÉµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		WeatherData weatherData=new WeatherData();
 		CurrentConditionsDisplay CurrentConditions=new CurrentConditionsDisplay(weatherData);
 		StatisticsDisplay Statistics=new StatisticsDisplay(weatherData);

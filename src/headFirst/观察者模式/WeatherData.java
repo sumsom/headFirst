@@ -1,4 +1,4 @@
-package headFirst.¹Û²ìÕßÄ£Ê½;
+package headFirst.è§‚å¯Ÿè€…æ¨¡å¼;
 
 import java.util.ArrayList;
 
@@ -15,14 +15,14 @@ public class WeatherData implements Subject {
 
 	@Override
 	public void registerObserver(Observer o) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ÉµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		observers.add(o);
 
 	}
 
 	@Override
 	public void removeObserver(Observer o) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ÉµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		int i=observers.indexOf(o);
 		if(i>=0) {
 			observers.remove(i);
@@ -32,7 +32,7 @@ public class WeatherData implements Subject {
 
 	@Override
 	public void notifyObservers() {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ÉµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		for(int i=0;i<observers.size();i++) {
 			Observer observer=(Observer)observers.get(i);
 			observer.update(temperature, humidity, pressure);
